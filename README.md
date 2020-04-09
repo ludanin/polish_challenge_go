@@ -1,15 +1,15 @@
 # Goals
 
-  - Create from 5 to 15 random "people" to walk on the map. To make our
-  lives easier they're all going to be centered toward a specific coordinate,
-  i.e. `lat = 59.955413` and `lng = 30.337844`.
-
   - Those "people" must have their position updated at every second.
 
   - We need a server with a single route, it returns all the "people" available
   on the map.
 
 # Completed
+
+  - Create from 5 to 15 random "people" to walk on the map. To make our
+  lives easier they're all going to be centered toward a specific coordinate,
+  i.e. `lat = 59.955413` and `lng = 30.337844`.
 
   - A `Person` is a struct (or JavaScript object) that has a `ID`, a `Name`
   and a `Coordinate`
