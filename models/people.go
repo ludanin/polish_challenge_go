@@ -26,6 +26,7 @@ func MakePeople() (result People) {
 	return result
 }
 
+// GenerateNoise moves all the Person inside this People
 func (p People) GenerateNoise() {
 	for i := range p {
 		p[i].Coordinates.Noise()
