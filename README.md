@@ -1,8 +1,5 @@
 # Goals
 
-  - We need a server with a single route, it returns all the "people" available
-  on the map.
-
 # Completed Goals
 
   - Create from 5 to 15 random "people" to walk on the map. To make our
@@ -18,3 +15,6 @@
   - A `Coordinate` holds latitude and longitude values.
 
   - Those "people" must have their position updated at every second.
+
+  - We need a server with a single route, it returns all the "people" available
+  on the map.
