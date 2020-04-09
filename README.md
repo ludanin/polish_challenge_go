@@ -9,8 +9,6 @@
   - A `Person` is a struct (or JavaScript object) that has a `ID`, a `Name`
   and a `Coordinate`
 
-  - A `Coordinate` holds latitude and longitude values.
-
   - Those "people" must have their position updated at every second.
 
   - We need a server with a single route, it returns all the "people" available
@@ -19,3 +17,5 @@
 # Completed
 
   - We would need to generate some random decimal noise to move these "people"
+
+  - A `Coordinate` holds latitude and longitude values.
