@@ -8,8 +8,8 @@ var initialLocation = Coordinates{
 
 // Coordinates holds Latitude and Longitude values
 type Coordinates struct {
-	Latitude  float64 `json:"Latitude"`
-	Longitude float64 `json:"Longitude"`
+	Latitude  float64 `json:"latitude"`
+	Longitude float64 `json:"longitude"`
 }
 
 // Noise adds some noise (i.e. very small decimal values, like 1/10000),
