@@ -26,6 +26,8 @@ func Run() {
 				} else {
 					w.Write(response)
 				}
+			} else if r.RequestURI == "/" {
+				http.ServeFile(w, r, "./build/index.html")
 			} else {
 				http.ServeFile(
 					w,
