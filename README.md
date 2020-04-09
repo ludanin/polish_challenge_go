@@ -1,5 +1,9 @@
 # Goals
 
+  - Test if the server can run simultaneously with a ReactJS dev-server
+
+  - Test if the server serves static files from a ReactJS production build
+
 # Completed Goals
 
   - Create from 5 to 15 random "people" to walk on the map. To make our
